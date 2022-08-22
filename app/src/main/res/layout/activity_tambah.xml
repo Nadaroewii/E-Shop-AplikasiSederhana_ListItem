@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".TambahActivity">
+
+    <TextView
+        android:layout_width="177dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:hint="TAMBAH ITEM"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="350dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/ivory" />
+
+    <EditText
+        android:id="@+id/ed_nama"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="80dp"
+        android:hint="Item Name" />
+
+    <EditText
+        android:id="@+id/ed_merk"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="140dp"
+        android:textColorHint="@color/black"
+        android:hint="Item Brand" />
+
+    <EditText
+        android:id="@+id/ed_harga"
+        android:layout_width="300dp"
+        android:textColorHint="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:hint="Item Price"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="300dp"
+        android:text="SUBMIT"
+        android:backgroundTint="@color/antique"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
